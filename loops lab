@@ -1,0 +1,90 @@
+//prompt 1
+
+for (let count = 10; step < 20; count++) {
+    console.log(count);
+  }
+
+  //prompt 2
+
+  for (let nCount = 40; nCount <= 0; nCount--) {
+      console.log(nCount);
+  }
+
+  //prompt 3
+
+  for (let i = 0; i < 20; i+=2) {
+      console.log(i);
+  }
+
+  //prompt 4
+
+  for (let a = -15; a <= 15; a++) {
+      console.log(a);
+  }
+
+  //prompt 5
+
+  let answer = " "
+
+  for (let i = 20; i <= 20; i+=2) {
+      answer + i;
+      console.log(answer)
+  }
+
+  //prompt 6
+
+  for (let i = 0; i <= 30; i++) {
+      if (i%2 == 0) {
+        console.log(`${i} is an even number`);
+      } else {
+          console.log(`${i} is an odd number`);
+      }
+  }
+
+  //prompt 7
+
+  for (let x = 0; x <= 10; x++) {
+      x * 9;
+      console.log(x);
+  }
+
+  //prompt 8
+  let i = 0;
+
+  do {
+    console.log(i);
+  } while (i < 20)
+  
+
+  //prompt 9
+
+  let orange = 5;
+
+  while (orange <= 20) {
+      console.log(orange)
+      orange++
+  }
+
+  //prompt 10
+
+  let water = 20;
+
+  while (water <= 0) {
+    console.log(water);
+    water--
+  }
+
+  //prompt 11
+
+  let magicNumber = prompt('Enter the magic number!')
+
+  for (x = 0; x <= 15; x+=2) {
+      
+  }
+
+  //prompt 12
+let counter = 0
+  do {
+    console.log(counter);
+    counter++;
+  } while (counter < 5)
